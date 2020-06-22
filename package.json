@@ -1,0 +1,17 @@
+{
+  "name": "swr-eslint-plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swrlab/swr-eslint-config"
+  },
+  "author": "SWR audio lab <lab@swr.de>",
+  "license": "ISC",
+  "bugs": "https://github.com/swrlab/swr-eslint-config/issues",
+  "homepage": "https://github.com/swrlab/swr-eslint-config#readme",
+  "dependencies": {
+    "@swrlab/swr-prettier-config": "0.0.1"
+  },
+  "devDependencies": {}
+}
