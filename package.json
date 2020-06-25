@@ -11,7 +11,7 @@
   "bugs": "https://github.com/swrlab/swr-eslint-config/issues",
   "homepage": "https://github.com/swrlab/swr-eslint-config#readme",
   "dependencies": {
-    "@swrlab/swr-prettier-config": "0.0.1"
+    "@swrlab/swr-prettier-config": "0.0.2"
   },
   "devDependencies": {}
 }
