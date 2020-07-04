@@ -1,5 +1,5 @@
 module.exports = {
 	configs: {
-		recommended: require('configs/recommended.js'),
+		recommended: require.resolve('./configs/recommended.js'),
 	},
 };
