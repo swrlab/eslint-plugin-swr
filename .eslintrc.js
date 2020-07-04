@@ -6,5 +6,5 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [require.resolve('./lib/configs/recommended')],
+  extends: [require.resolve('./configs/recommended')],
 };
