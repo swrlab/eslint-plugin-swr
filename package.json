@@ -29,5 +29,10 @@
     "@swrlab/swr-prettier-config": "0.0.2",
     "eslint": "^7.4.0",
     "prettier": "^2.0.5"
-  }
+  },
+  "files": [
+    "index.js",
+    "config/*",
+    ".prettierrc.json"
+  ]
 }
