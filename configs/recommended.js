@@ -9,8 +9,8 @@ module.exports = {
     es6: true,
     node: true,
   },
-  plugins: ['prettier', 'security', 'airbnb-base'],
-  extends: ['eslint:recommended', 'plugin:airbnb-base'],
+  plugins: ['prettier', 'security', 'sonarjs', 'airbnb-base'],
+  extends: ['plugin:sonarjs/recommended', 'eslint:recommended', 'plugin:airbnb-base', 'plugin:prettier/recommended'],
   rules: {
   },
 };
