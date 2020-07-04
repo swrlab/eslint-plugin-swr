@@ -1,6 +1,6 @@
 module.exports = {
-  env: {
-    browser: true,
-  },
-  plugins: ['swr'],
+	env: {
+		browser: true,
+	},
+	plugins: ['swr'],
 };

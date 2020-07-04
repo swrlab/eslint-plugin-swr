@@ -1,8 +1,8 @@
 module.exports = {
-  env: {
-    es6: true,
-    node: true,
-    jest: true,
-  },
-  plugins: ['swr'],
+	env: {
+		es6: true,
+		node: true,
+		jest: true,
+	},
+	plugins: ['swr'],
 };
