@@ -9,8 +9,13 @@ module.exports = {
     es6: true,
     node: true,
   },
-  plugins: ['prettier', 'security', 'sonarjs', 'airbnb-base'],
-  extends: ['plugin:sonarjs/recommended', 'eslint:recommended', 'plugin:airbnb-base', 'plugin:prettier/recommended'],
+	plugins: ['prettier', 'security', 'sonarjs'],
+	extends: ['plugin:sonarjs/recommended', 'eslint:recommended', 'airbnb-base', 'plugin:prettier/recommended'],
   rules: {
+    'prettier/prettier': ['warn', {
+      printWidth: 120,
+      tabWidth: 8,
+      useTabs: true,
+    }],
   },
 };
