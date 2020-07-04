@@ -1,6 +1,6 @@
 {
-  "name": "swr-eslint-plugin",
-  "version": "0.0.1",
+  "name": "eslint-plugin-swr",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",

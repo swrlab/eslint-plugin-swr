@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm add -D eslint @swrlab/swr-eslint-plugin
+npm add -D eslint eslint-plugin-swr
 ```
 
 Include in `.eslintrc.json`:
