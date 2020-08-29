@@ -1,5 +1,5 @@
 module.exports = {
 	configs: {
-		recommended: require.resolve('./configs/recommended.js'),
+		recommended: require('./configs/recommended.js'), // eslint-disable-line global-require
 	},
 };
