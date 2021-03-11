@@ -24,6 +24,7 @@ Include in `.eslintrc.json`:
 This config uses following plugins:
 
 - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/README.md)
+- [eslint:recommended](https://eslint.org/docs/rules/)
 - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
 - [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
