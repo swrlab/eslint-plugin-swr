@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-swr",
+  "name": "@swrlab/eslint-plugin-swr",
   "version": "0.1.0",
   "main": "index.js",
   "repository": {

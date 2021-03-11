@@ -3,16 +3,19 @@
 ## Install
 
 ```sh
-npm add -D eslint eslint-plugin-swr
+npm add -D eslint @swrlab/eslint-plugin-swr
 ```
 
 Include in `.eslintrc.json`:
 
 ```json
 {
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "root": true,
-  "plugins": ["swr"],
-  "extends": ["plugin:swr/recommended"]
+  "plugins": ["@swrlab/eslint-plugin-swr"],
+  "extends": ["plugin:@swrlab/eslint-plugin-swr/recommended"]
 }
 ```
 

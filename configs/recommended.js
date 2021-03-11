@@ -20,5 +20,8 @@ module.exports = {
 				useTabs: true,
 			},
 		],
+		'no-console': 'off',
+		'sonarjs/cognitive-complexity': ['error', 40],
+		'one-var': ['error', { let: 'consecutive' }],
 	},
 };
