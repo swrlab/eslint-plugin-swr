@@ -1,38 +1,43 @@
 {
-  "name": "eslint-plugin-swr",
-  "version": "0.0.4",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/swrlab/swr-eslint-config"
-  },
-  "author": "SWR audio lab <lab@swr.de>",
-  "license": "ISC",
-  "bugs": "https://github.com/swrlab/swr-eslint-config/issues",
-  "homepage": "https://github.com/swrlab/swr-eslint-config#readme",
-  "scripts": {
-    "lint": "eslint .",
-    "fix": "eslint --fix .",
-    "watch": "git ls-files | entr -c npm run lint"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.17.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sonarjs": "^0.5.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-unicorn": "^20.1.0"
-  },
-  "devDependencies": {
-    "@swr/prettier-config": "0.0.1",
-    "eslint": "^7.4.0",
-    "prettier": "^2.0.5"
-  },
-  "files": [
-    "index.js",
-    "configs/*",
-    ".prettierrc.json"
-  ]
+	"name": "@swrlab/eslint-plugin-swr",
+	"version": "0.1.0",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/swrlab/eslint-plugin-swr"
+	},
+	"author": "SWR Audio Lab <lab@swr.de>",
+	"license": "ISC",
+	"bugs": "https://github.com/swrlab/eslint-plugin-swr/issues",
+	"homepage": "https://github.com/swrlab/eslint-plugin-swr#readme",
+	"scripts": {
+		"lint": "eslint .",
+		"fix": "eslint --fix .",
+		"watch": "git ls-files | entr -c npm run lint"
+	},
+	"dependencies": {
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-security": "^1.4.0",
+		"eslint-plugin-sonarjs": "^0.6.0",
+		"eslint-plugin-unicorn": "^28.0.2"
+	},
+	"devDependencies": {
+		"@swrlab/swr-prettier-config": "^0.1.2",
+		"eslint": "^7.21.0",
+		"prettier": "^2.0.5"
+	},
+	"peerDependencies": {
+		"eslint": ">5"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"files": [
+		"index.js",
+		"configs/*",
+		".prettierrc.json"
+	]
 }

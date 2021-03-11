@@ -3,16 +3,19 @@
 ## Install
 
 ```sh
-npm add -D eslint eslint-plugin-swr
+npm add -D eslint @swrlab/eslint-plugin-swr
 ```
 
 Include in `.eslintrc.json`:
 
 ```json
 {
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "root": true,
-  "plugins": ["swr"],
-  "extends": ["plugin:swr/recommended"]
+  "plugins": ["@swrlab/eslint-plugin-swr"],
+  "extends": ["plugin:@swrlab/eslint-plugin-swr/recommended"]
 }
 ```
 
@@ -20,9 +23,10 @@ Include in `.eslintrc.json`:
 
 This config uses following plugins:
 
-* https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/README.md
-* https://github.com/prettier/eslint-plugin-prettier
-* https://github.com/SonarSource/eslint-plugin-sonarjs
-* https://github.com/sindresorhus/eslint-plugin-unicorn
-* https://github.com/nodesecurity/eslint-plugin-security
-* https://github.com/jest-community/eslint-plugin-jest
+- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/README.md)
+- [eslint:recommended](https://eslint.org/docs/rules/)
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+- [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
+- [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
