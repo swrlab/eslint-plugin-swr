@@ -26,7 +26,7 @@
 	},
 	"devDependencies": {
 		"@swrlab/swr-prettier-config": "^0.1.2",
-		"eslint": "^7.21.0",
+		"eslint": "^7.22.0",
 		"prettier": "^2.0.5"
 	},
 	"peerDependencies": {
