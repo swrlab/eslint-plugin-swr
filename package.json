@@ -19,7 +19,7 @@
 		"eslint-config-airbnb-base": "^14.2.0",
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-import": "^2.22.0",
-		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-prettier": "^3.4.0",
 		"eslint-plugin-security": "^1.4.0",
 		"eslint-plugin-sonarjs": "^0.6.0",
 		"eslint-plugin-unicorn": "^28.0.2"
