@@ -10,7 +10,7 @@ module.exports = {
 		node: true,
 	},
 	plugins: ['prettier', 'security', 'sonarjs'],
-	extends: ['plugin:sonarjs/recommended', 'eslint:recommended', 'airbnb-base', 'plugin:prettier/recommended'],
+	extends: ['plugin:vue/essential','plugin:sonarjs/recommended', 'eslint:recommended', 'airbnb-base', 'plugin:prettier/recommended'],
 	rules: {
 		'prettier/prettier': [
 			'warn',

@@ -30,3 +30,4 @@ This config uses following plugins:
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
 - [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
