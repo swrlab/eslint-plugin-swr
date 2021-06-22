@@ -1,6 +1,6 @@
 {
 	"name": "@swrlab/eslint-plugin-swr",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
@@ -17,24 +17,24 @@
 	},
 	"dependencies": {
 		"eslint-config-airbnb-base": "^14.2.0",
-		"eslint-config-prettier": "^8.2.0",
-		"eslint-plugin-import": "^2.22.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.23.4",
 		"eslint-plugin-prettier": "^3.4.0",
 		"eslint-plugin-security": "^1.4.0",
-		"eslint-plugin-sonarjs": "^0.6.0",
-		"eslint-plugin-unicorn": "^30.0.0",
-		"eslint-plugin-vue": "^7.9.0"
+		"eslint-plugin-sonarjs": "^0.8.0-125",
+		"eslint-plugin-unicorn": "^33.0.1",
+		"eslint-plugin-vue": "^7.11.1"
 	},
 	"devDependencies": {
 		"@swrlab/swr-prettier-config": "^0.1.2",
-		"eslint": "^7.24.0",
-		"prettier": "^2.0.5"
+		"eslint": "^7.29.0",
+		"prettier": "^2.3.1"
 	},
 	"peerDependencies": {
 		"eslint": ">5"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": ">=12"
 	},
 	"files": [
 		"index.js",
