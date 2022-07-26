@@ -1,5 +1,8 @@
+// load utils
+const recommended = require('./configs/recommended')
+
 module.exports = {
 	configs: {
-		recommended: require('./configs/recommended.js'), // eslint-disable-line global-require
+		recommended,
 	},
-};
+}
