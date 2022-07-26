@@ -11,6 +11,7 @@ module.exports = {
 	},
 	plugins: ['prettier', 'security', 'sonarjs'],
 	extends: [
+		'plugin:json/recommended',
 		'plugin:vue/essential',
 		'plugin:sonarjs/recommended',
 		'eslint:recommended',
