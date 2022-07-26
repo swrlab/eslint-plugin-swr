@@ -1,4 +1,4 @@
-# SWR eslint plugin
+# SWR ESLint plugin
 
 ## Install
 
