@@ -10,7 +10,14 @@ module.exports = {
 		node: true,
 	},
 	plugins: ['prettier', 'security', 'sonarjs'],
-	extends: ['plugin:vue/essential','plugin:sonarjs/recommended', 'eslint:recommended', 'airbnb-base', 'plugin:prettier/recommended'],
+	extends: [
+		'plugin:json/recommended',
+		'plugin:vue/essential',
+		'plugin:sonarjs/recommended',
+		'eslint:recommended',
+		'airbnb-base',
+		'plugin:prettier/recommended',
+	],
 	rules: {
 		'prettier/prettier': [
 			'warn',
@@ -24,4 +31,4 @@ module.exports = {
 		'sonarjs/cognitive-complexity': ['error', 40],
 		'one-var': ['error', { let: 'consecutive' }],
 	},
-};
+}

@@ -7,4 +7,4 @@ module.exports = {
 		node: true,
 	},
 	extends: [require.resolve('./configs/recommended')],
-};
+}

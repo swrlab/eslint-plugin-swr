@@ -1,6 +1,16 @@
-name: Lint code
+name: Code Check
 
-on: [push]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    - dev/*
+    - chore/*
+    - feature/*
+
+env:
+  NODE_VERSION: 18
 
 jobs:
   build:
@@ -8,11 +18,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2.3.4
+      - name: 👀 Checkout Code
+        uses: actions/checkout@v3
 
-      - name: Lint Code Base
-        uses: docker://github/super-linter:v2.2.0
+      - name: ⛺️ Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "yarn"
+          cache-dependency-path: "**/yarn.lock"
+
+      - name: 📦 Install Dependencies
+        run: yarn
+
+      - name: 📚 Lint Code Base
+        uses: docker://github/super-linter:v4
         env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IGNORE_GITIGNORED_FILES: true
+          JAVASCRIPT_DEFAULT_STYLE: prettier
+          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.js
+          LINTER_RULES_PATH: /
           VALIDATE_ALL_CODEBASE: true
-          VALIDATE_ANSIBLE: false
